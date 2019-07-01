@@ -1,0 +1,43 @@
+{
+  "name": "swishqr-image",
+  "version": "1.0.1",
+  "description": "A small module that returns a SwishQR Code - similar to the one Swish offers but simplified & without the need for their API. Uses Googlecharts to render a locked Swish QR code based on \"payee\", \"amount\" & \"message\".",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teeboteebo/swishqr.git"
+  },
+  "keywords": [
+    "Swish",
+    "QRCode",
+    "QR",
+    "Code",
+    "SwishQR",
+    "Payments",
+    "Sweden"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "teeboteebo"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "webpack": "^4.12.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.0.4"
+  }
+}
